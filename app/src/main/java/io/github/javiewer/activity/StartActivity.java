@@ -47,7 +47,7 @@ public class StartActivity extends AppCompatActivity {
 
     public void readProperties() {
         Request request = new Request.Builder()
-                .url("https://raw.githubusercontent.com/SplashCodes/JAViewer/master/properties.json")
+                .url("https://raw.githubusercontent.com/lowkeyfred/JAViewer/master/properties.json")
                 .build();
         JAViewer.HTTP_CLIENT.newCall(request).enqueue(new Callback() {
             @Override
